@@ -1,0 +1,10 @@
+[package]
+name = "chip8-rust"
+version = "0.1.0"
+authors = ["CramMK <ma_tho@web.de>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.sdl2]
+version = "0.33"
