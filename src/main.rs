@@ -1,11 +1,8 @@
-mod processor;
+use crate::processor::Processor;
 
-use processor::Processor;
-
-
-const SCREEN_HEIGHT: usize = 32; // pixels
-const SCREEN_WIDTH: usize = 64; // pixels
-const RAM_SIZE: usize = 4096; // bytes
+pub const SCREEN_HEIGHT: usize = 32; // pixels
+pub const SCREEN_WIDTH: usize = 64; // pixels
+pub const RAM_SIZE: usize = 4096; // bytes
 
 fn main() {
     let processor = Processor::new();
